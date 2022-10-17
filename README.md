@@ -1,3 +1,37 @@
+WELCOME to KIM's－Toyproject
+============================
+
+* キムのAWS勉強用おもちゃプロジェクト
+
+使用技術
+---------
+* AWS CodePipeline
+* AWS CodeStar
+* Amazon EC2
+* AWS IAM
+* AWS VPC
+* Spring - Maven Project
+* JSP
+* Java
+* データベースは未定
+* その他基本Web機能
+
+ローカル環境
+-------------
+* Eclipse環境で開発
+* CodePipelineでデプロイ
+
+プロジェクトの目標
+------------------
+* 自分のプロジェクト立てる
+* AWSで配布
+* CodePipelineの理解・経験
+* 共にAWS資格（AWS Cloud Practitioner / AWS Developer など）の取得
+* 自分の紹介ページ・日記帳などの機能を作る想定
+
+以下からは基本READMEファイルの内容となります。
+=========================================
+
 Welcome to the AWS CodeStar sample web application
 ==================================================
 
