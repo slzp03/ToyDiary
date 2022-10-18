@@ -7,7 +7,7 @@ import com.aws.codestar.projecttemplates.configuration.MvcConfig;
 /**
  * Utility to initialize the Spring MVC HelloWorld application.
  */
-public class HelloWorldAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class ToyDiaryAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override
     protected Class<?>[] getRootConfigClasses() {

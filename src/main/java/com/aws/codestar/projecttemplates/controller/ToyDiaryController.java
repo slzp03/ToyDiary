@@ -9,20 +9,20 @@ import org.springframework.web.servlet.ModelAndView;
  * Basic Spring MVC controller that handles all GET requests.
  */
 @Controller
-@RequestMapping("/")
-public class HelloWorldController {
+public class ToyDiaryController {
 
     private final String siteName;
 
-    public HelloWorldController(final String siteName) {
+    public ToyDiaryController(final String siteName) {
         this.siteName = siteName;
     }
 
-    @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView helloWorld() {
-        ModelAndView mav = new ModelAndView("index");
+
+    @RequestMapping(value = "/",method=RequestMethod.GET)
+    public ModelAndView index() {
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("index");
         mav.addObject("siteName", this.siteName);
         return mav;
     }
-
 }
