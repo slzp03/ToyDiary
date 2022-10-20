@@ -28,17 +28,15 @@
         </div>
       </div>
 
-      <header>
-        <nav class="website-nav">
-          <ul>
-            <li>KIM's Home</li>
-            <li><a href="/introduce">Introduce</a></li>
-            <li>History</li>
-            <li>Skill Stack</li>
-            <li>diary</li>
-          </ul>
-        </nav>
-      </header>
+	<header>
+	  <nav class="website-nav">
+	    <ul>
+	    	<li style="text-align:left"><a href="/">HOME</a></li>
+			<li><a href="/introduce">INTRODUCE</a></li>
+			<li><a href="/diary">DIARY</a></li>
+	    </ul>
+	  </nav>
+	</header>
 
       <div class="message">
         <div class="text">
@@ -46,10 +44,6 @@
         </div>
       </div>
     </div>
-
-    <footer>
-      <p class="footer-contents">Footer Area</p>
-    </footer>
 
     <script src="{$setBackgroundJs}"></script>
   </body>
