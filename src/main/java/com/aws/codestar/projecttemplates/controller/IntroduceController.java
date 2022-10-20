@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping(value = "/introduce", method=RequestMethod.GET)
+
 public class IntroduceController {
 
 	private final String siteName;
@@ -15,6 +15,7 @@ public class IntroduceController {
 		this.siteName = siteName;
 	}
 
+	@RequestMapping(value = "/introduce", method=RequestMethod.GET)
     public ModelAndView introduce() {
     	ModelAndView mav = new ModelAndView();
     	mav.setViewName("introduce");

@@ -17,7 +17,6 @@ public class ToyDiaryController {
         this.siteName = siteName;
     }
 
-
     @RequestMapping(value = "/",method=RequestMethod.GET)
     public ModelAndView index() {
         ModelAndView mav = new ModelAndView();
