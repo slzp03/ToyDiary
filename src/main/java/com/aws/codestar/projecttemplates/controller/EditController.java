@@ -6,17 +6,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class DiaryController {
+public class EditController {
     private final String siteName;
 
-    public DiaryController(final String siteName) {
+    public EditController(final String siteName) {
         this.siteName = siteName;
     }
 
-    @RequestMapping(value = "/diary",method=RequestMethod.GET)
+    @RequestMapping(value = "/edit",method=RequestMethod.GET)
     public ModelAndView index() {
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("diary");
+        mav.setViewName("edit");
         mav.addObject("siteName", this.siteName);
         return mav;
     }

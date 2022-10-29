@@ -7,7 +7,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
-import com.aws.codestar.projecttemplates.controller.DiaryController;
+<<<<<<< master
+import com.aws.codestar.projecttemplates.controller.EditController;
+=======
+>>>>>>> ac87e79 ADD Diary Controller
 import com.aws.codestar.projecttemplates.controller.IntroduceController;
 import com.aws.codestar.projecttemplates.controller.ToyDiaryController;
 
@@ -33,10 +36,14 @@ public class ApplicationConfig {
     public IntroduceController introduce() {
         return new IntroduceController(this.siteName);
     }
+<<<<<<< master
     @Bean
-    public DiaryController diary() {
-        return new DiaryController(this.siteName);
+    public EditController diary() {
+        return new EditController(this.siteName);
     }
+=======
+
+>>>>>>> ac87e79 ADD Diary Controller
     /**
      * Required to inject properties using the 'Value' annotation.
      */
